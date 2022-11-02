@@ -1,12 +1,11 @@
 body {
-  background-color: #dc8090;
+  background-color: #cf8692a1;
+  margin: 0;
 }
 
 .first-img {
-  background: url(../images/wedding_couple.jpg);
-  margin-top: -20px;
+  background: url("../images/wedding_couple.jpg");
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
   text-align: center;
