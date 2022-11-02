@@ -109,11 +109,11 @@ body {
 }
 
 .rs {
-    text-align: center;
-    background-color: #f44336;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 20px 65px;
-    font-size: 20px;
-  }
+  text-align: center;
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 20px 65px;
+  font-size: 20px;
+}
