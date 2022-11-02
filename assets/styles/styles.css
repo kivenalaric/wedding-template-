@@ -1,5 +1,5 @@
 body {
-  background-color: #cf8692a1;
+  background-color: #dfb5bc78;
   margin: 0;
 }
 
@@ -23,6 +23,7 @@ body {
   display: flex;
   width: 100%;
   bottom: 0;
+  columns: 4;
 }
 
 .nav a {
@@ -84,3 +85,35 @@ body {
 .third-img h2 {
   font-size: 30px;
 }
+
+.fourth-img {
+  display: flex;
+  justify-content: center;
+}
+
+.loc {
+  columns: 2;
+  text-align: center;
+  color: #000;
+}
+
+.loc h3 {
+  font-size: 30px;
+}
+
+.last {
+  background-color: #ffdddd;
+  text-align: center;
+  padding: 40px;
+  line-height: 3em;
+}
+
+.rs {
+    text-align: center;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 65px;
+    font-size: 20px;
+  }
