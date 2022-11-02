@@ -30,3 +30,39 @@ body {
   text-decoration: none;
   padding: 0 150px;
 }
+
+.names {
+  text-align: center;
+  font-size: 38px;
+  color: #806f6f;
+}
+
+.second-img {
+  display: flex;
+  justify-content: center;
+}
+
+.wed-info {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  line-height: 1em;
+  font-size: 20px;
+  color: #806f6f;
+  font-style: italic;
+}
+
+.wed-det {
+  text-align: center;
+}
+
+.button {
+  text-align: center;
+  margin: 4px 2px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  padding: 10px 15px;
+  font-size: 20px;
+}
