@@ -16,3 +16,19 @@ body {
 .first-img h1 {
   font-size: 60px;
 }
+
+.nav-bar {
+  background-color: #f6eded8f;
+  padding: 20px; 
+  position: fixed;
+  display: flex;
+  width: 100%;
+  bottom: 0;
+}
+
+.nav a{
+  color: #000;
+  text-decoration: none;
+  padding: 0 150px;
+  line-height: 2em;
+}
