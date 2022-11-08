@@ -72,6 +72,10 @@ body {
   font-size: 20px;
 }
 
+.foot a {
+  color: #fff;
+}
+
 .wed-det button:hover,
 .vp button:hover,
 .nav a:hover {
@@ -112,7 +116,7 @@ body {
 }
 
 .last {
-  background-color: #ffdddd;
+  background-color: #fdd;
   text-align: center;
   padding: 40px;
   line-height: 3em;
@@ -136,11 +140,7 @@ body {
   font-size: 18px;
 }
 
-.foot a {
-  color: #fff;
-}
-
-@media only screen and (max-width:748px) {
+@media only screen and (max-width: 748px) {
   body {
     width: 100vw;
     justify-content: center;
@@ -161,7 +161,7 @@ body {
   .tin {
     max-width: 400px;
     width: 98vw;
-    min-width: 250px; 
+    min-width: 250px;
   }
 
   .wed-info p {
@@ -210,4 +210,5 @@ body {
     font-size: 40px;
     text-align: center;
   }
+  
 }
