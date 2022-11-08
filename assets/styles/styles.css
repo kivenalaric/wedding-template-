@@ -28,7 +28,7 @@ body {
 .nav a {
   color: #000;
   text-decoration: none;
-  padding: 0 150px;
+  padding: 20px 158px;
 }
 
 .names {
@@ -41,8 +41,6 @@ body {
 .second-img {
   display: flex;
   justify-content: center;
-  border-radius: 20px;
-  width: 100vw;
 }
 
 .wed-info {
@@ -76,7 +74,7 @@ body {
 
 .wed-det button:hover,
 .vp button:hover,
-.nav-bar:hover {
+.nav a:hover {
   background-color: #5a5a5a;
 }
 
@@ -103,7 +101,8 @@ body {
 }
 
 .loc {
-  columns: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   text-align: center;
   color: #000;
 }
@@ -120,14 +119,14 @@ body {
 }
 
 .rs {
-    text-align: center;
-    background-color: #f44336;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 20px 65px;
-    font-size: 20px;
-  }
+  text-align: center;
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 20px 65px;
+  font-size: 20px;
+}
 
 .foot {
   text-align: center;
@@ -141,24 +140,73 @@ body {
   color: #fff;
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:748px) {
   body {
-    width: 100%;
+    width: 100vw;
+    justify-content: center;
+    margin: 0;
   }
+
+  .first-img,
+  .third-img {
+    width: 90vw;
+  }
+
+  .wed-det button:hover,
+  .vp button:hover,
+  .nav a:hover {
+    background-color: #5a5a5a;
+  }
+
   .tin {
-    width: 100%;
+    max-width: 400px;
+    width: 98vw;
+    min-width: 250px; 
+  }
+
+  .wed-info p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .nav {
+    display: grid;
+    grid-template-columns: 155px 155px 155px 155px;
+  }
+
+  .foot p {
+    text-align: center;
+  }
+
+  .second-img,
+  .fourth-img {
+    display: grid;
+    justify-content: center;
+  }
+
+  .page {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .loc {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
   }
 
   .nav-bar {
     width: 100%;
     position: fixed;
     bottom: 0;
-    display: block;
+    display: grid;
     text-align: center;
-    columns: 4;
   }
 
-  .third-img h1,.first-img h1 {
+  .third-img h1,
+  .first-img h1 {
     font-size: 40px;
     text-align: center;
   }
