@@ -1,3 +1,6 @@
+* {
+  outline: 1px solid #f00 !important;
+}
 body {
   background-color: #dfb5bc78;
   margin: 0;
@@ -10,6 +13,7 @@ body {
   color: #fff;
   text-align: center;
   height: 100vh;
+  width: 100%;
 }
 
 .first-img h1 {
@@ -20,15 +24,16 @@ body {
   background-color: #f6eded8f;
   padding: 20px;
   position: fixed;
-  display: grid;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
   bottom: 0;
 }
 
 .nav a {
   color: #000;
   text-decoration: none;
-  padding: 20px 158px;
+  padding: 2% 10%;
 }
 
 .names {
@@ -67,7 +72,7 @@ body {
 
 .det {
   text-align: center;
-  margin: 5%;
+  margin: 5% 0;
   background-color: #000;
   color: #fff;
   border: none;
@@ -93,6 +98,7 @@ body {
   color: #fff;
   text-align: center;
   min-height: 100vh;
+  width: 100%;
 }
 
 .third-img h1 {
@@ -122,7 +128,7 @@ body {
 .last {
   background-color: #fdd;
   text-align: center;
-  padding: 40px;
+  padding: 40px 0;
   line-height: 3em;
 }
 
@@ -193,6 +199,12 @@ body {
 
   .third-img h1,
   .first-img h1 {
-    font-size: 40px;
+    font-size: 60px;
+    margin: 25% 0;
+  }
+
+  .first-img h2 {
+    font-size: 20px;
+    text-align: center;
   }
 }
