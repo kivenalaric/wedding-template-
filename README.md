@@ -48,4 +48,4 @@ Knowledge about:
 
 ## ðŸ“ License
 
-This project is [w3school](./LICENSE) licensed.
+This project is [w3school](./LICENSE) licensed ...
