@@ -28,7 +28,7 @@ Knowledge about:
 
 - To get a local copy up and running follow these simple example steps.
 - Clone this repository with `https://github.com/kivenalaric/wedding-template-.git` using your terminal.
-- Change to the project directory by entering: cd CV-Template in the terminal.
+- Change to the project directory by entering: cd wedding in the terminal.
 
 ## steps
 
