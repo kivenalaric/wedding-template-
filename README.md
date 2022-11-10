@@ -7,10 +7,7 @@ this is a project about an invitation to a wedding
 
 ## App
 
-![Home](assets/images/wedding_couple.jpg)
-![Home](assets/images/wedding_couple2.jpg)
-![Home](assets/images/wedding_location.jpg)
-![Home](assets/images/flowers.jpg)
+![Home](assets/images/site.jpeg)
 
 ### Built With
 
