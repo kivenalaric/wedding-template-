@@ -1,24 +1,51 @@
-# Wedding Template
+# Wedding project
 
-## AUTHOR
-    -This project was created by KIVEN ALARIC N.
+this is a project about an invitation to a wedding
+
 ## ABOUT
-    -This is a wedding template project amongst 7 projects given to i and my mates as an assignment to test our skills on html and css.  
-## OPENING THE PROGRAM
-    -Opening the program is as clicking its link or searching the url when there's stable connection.
-## BUILT WITH
-    This project is basically built with
-    TOOLS
-        -VScode
-    LANGUAGES
-        -HTML
-        -CSS
-### PREREQUISITES
-    You should already have a stable browser to use
-## CLONE PROJECT
-    To get a local copy of this work  on your machine, you'll need to clone i.e cloning the repository
-    This is done by using the linux terminal or git bash on windows
-    Here's a link to the clone https://github.com/kivenalaric/wedding-template-.git
-## CONTRIBUTION
-    Contribution, issues, and feature requests are welcome!
-    Feel free to check the [issues page] (link to issue page on github)
+-This is a wedding template project amongst 7 projects given to i and my mates as an assignment to test our skills on html and css
+
+## App
+
+![Home](assets/images/wedding_couple.jpg)
+![Home](assets/images/wedding_couple2.jpg)
+![Home](assets/images/wedding_location.jpg)
+![Home](assets/images/flowers.jpg)
+
+### Built With
+
+- HTML
+- CSS
+### Prerequisites
+
+Knowledge about:
+
+- HTML
+- CSS
+- Google chrome
+
+## Clone project
+
+- To get a local copy up and running follow these simple example steps.
+- Clone this repository with `https://github.com/kivenalaric/wedding-template-.git` using your terminal.
+- Change to the project directory by entering: cd CV-Template in the terminal.
+
+## steps
+
+- $ git clone `https://github.com/kivenalaric/wedding-template-.git`
+- $ `cd wedding`
+- $ `git checkout feature/wedding-template`
+
+## Start App
+
+- run by opening the index.html in the browser
+
+## Author
+
+ðŸ‘¤ **Kiven Alaric**
+
+- GitHub: [@kivenalaric](https://github.com/kivenalaric/wedding-template.git)
+
+## ðŸ“ License
+
+This project is [w3school](./LICENSE) licensed.

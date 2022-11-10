@@ -1,6 +1,8 @@
 body {
   background-color: #dfb5bc78;
   margin: 0;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5;
 }
 
 .first-img {
@@ -11,10 +13,7 @@ body {
   text-align: center;
   height: 100vh;
   width: 100%;
-}
-
-.first-img h1 {
-  font-size: 60px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .nav-bar {
@@ -30,7 +29,7 @@ body {
 .nav a {
   color: #000;
   text-decoration: none;
-  padding: 2% 10%;
+  padding: 1% 10%;
 }
 
 .names {
@@ -40,13 +39,27 @@ body {
 }
 
 .first-img .wed-inf {
-  text-align: center;
-  padding: 20% 0;
+  text-align: center !important;
+  padding: 10% 0;
+  letter-spacing: 4px;
 }
 
 .third-img .wed-inf {
   text-align: center;
-  padding: 30% 0;
+  padding: 15% 0;
+  letter-spacing: 4px;
+}
+
+.first-img h1 {
+  font-size: 80px;
+}
+
+.first-img p {
+  font-size: 25px;
+}
+
+.first-img h2 {
+  font-size: 40px;
 }
 
 .second-img {
@@ -96,6 +109,7 @@ body {
   text-align: center;
   min-height: 100vh;
   width: 100%;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .third-img h1 {
@@ -103,7 +117,7 @@ body {
 }
 
 .third-img h2 {
-  font-size: 30px;
+  font-size: 50px;
 }
 
 .fourth-img {
@@ -197,11 +211,11 @@ body {
   .third-img h1,
   .first-img h1 {
     font-size: 60px;
-    margin: 25% 0;
+    margin: 25% 0 0;
   }
 
   .first-img h2 {
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
   }
 }
